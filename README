@@ -1,2 +1,68 @@
 GAP test
 
+HOW TO RUN
+1. Missing Letters
+
+$> ruby MissingLetters.rb "A quick brown fox jumps over the lazy dog"
+
+$> ruby MissingLetters.rb "A slow yellow fox crawls under the proactive dog"
+bjkmqz 
+$> ruby MissingLetters.rb "Lions, and tigers, and bears, oh my\!"
+cfjklpquvwxz
+
+****
+NOTE: Please note that the ! simbol needs to be escaped on the linux console.
+****
+
+$> ruby MissingLetters.rb ""
+abcdefghijklmnopqrstuvwxyz
+
+2. Animation
+
+$> ruby Animation.rb 2 "...R...."
+...X....
+.....X..
+.......X
+........
+
+$> ruby Animation.rb 3  "RR..LRL"
+XX..XXX
+.X.XX..
+X.....X
+.......
+
+ruby Animation.rb 2,  "LRLR.LRLR"
+XXXX.XXXX
+X..X.X..X
+.X.X.X.X.
+.X.....X.
+.........
+
+$> ruby Animation.rb 10,  "RLRLRLRLRL"
+XXXXXXXXXX
+..........
+
+ruby Animation.rb 1,  "..."
+...
+
+$> ruby Animation.rb 1,  "LRRL.LR.LRR.R.LRRL."
+XXXX.XX.XXX.X.XXXX.
+..XXX..X..XX.X..XX.
+.X.XX.X.X..XX.XX.XX
+X.X.XX...X.XXXXX..X
+.X..XXX...X..XX.X..
+X..X..XX.X.XX.XX.X.
+..X....XX..XX..XX.X
+.X.....XXXX..X..XX.
+X.....X..XX...X..XX
+.....X..X.XX...X..X
+....X..X...XX...X..
+...X..X.....XX...X.
+..X..X.......XX...X
+.X..X.........XX...
+X..X...........XX..
+..X.............XX.
+.X...............XX
+X.................X
+...................
+
